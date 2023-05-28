@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌮</text></svg>">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact Us LTS</title>
+</head>
+<body>
+    <main>
+        <h1>Contact Us</h1>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#AboutLTS">About LTS</a></li>
+                    <li><a href="index.html#OurMenu">Our Menu</a></li>
+                    <li><a href="hours.html#Hours">Store Hours</a></li>
+                </ul>
+            </nav>
+            <figure>
+                <img src="img/tacos_close_up_400x260.png" width="400" height="260" alt="Tacos in a close up">
+                <figcaption>Little Taco Shop Tacos</figcaption>
+            </figure>
+        </header>
+        <hr>
+        <section id="contactForm">
+            <h2>Our Contact Form</h2>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Send Us A Message</legend>
+                    <p>
+                        <label for="name">Name: </label>
+                        <input type="text" id="name" placeholder="your name" required autocomplete="name">
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="your email" required autocomplete="email" >
+                    </p>
+                    <p>
+                        <label for="message">Your Message:</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here" required></textarea>
+                    </p>
+                </fieldset>
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+        <section id="location">
+            <h2>Our Location</h2>
+            <address>
+                "555 Taco Temptation Lane, Suite T"
+                <br>
+                Kansas City, MO 55555-5555
+                <br>
+                <br>
+                "Phone:"
+                <a href="tel:+5555555555">555-555-5555</a>
+            </address>
+            <p>
+                <a href="#">Back To Top</a>
+            </p>
+        </section>
+        <hr>
+        <footer>
+            <p>
+                Copyright &copy; The Little Taco Shop
+            </p>
+        </footer>
+    </main>
+</body>
+</html>
